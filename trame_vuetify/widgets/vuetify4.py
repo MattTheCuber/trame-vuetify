@@ -6,6 +6,7 @@
 # ruff: noqa: E501
 
 from trame_client.widgets.core import AbstractElement  # noqa
+
 try:
     from trame_client.widgets.vue import Template  # noqa
 except ImportError:
